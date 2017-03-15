@@ -1,0 +1,12 @@
+{
+  "name": "Reader-for-Reddit-Server",
+  "version": "0.0.1",
+  "description": "Server for Reader-for-Reddit.",
+  "main": "app.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
