@@ -1,5 +1,6 @@
 import React from 'react'
 import * as ReactRedux from 'react-redux';
+import {ItemList} from './ItemList.jsx'
 
 class AppUI extends React.Component {
    constructor(props) {
@@ -7,7 +8,7 @@ class AppUI extends React.Component {
    }
 
    render() {
-      return <h1>Hello, World! </h1>
+      return <ItemList />
    }
 }
 
