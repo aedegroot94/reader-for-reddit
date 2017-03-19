@@ -11,9 +11,9 @@ class ItemListUI extends React.Component {
 
     componentWillMount() {
         //TODO: uncomment when loadItems is implemented on server.
-        // if(this.props.subreddit) {
-        //     this.props.loadItems(this.props.subreddit, this.props.sorting);
-        // }
+        if(this.props.subreddit) {
+            this.props.loadItems(this.props.subreddit, this.props.sorting);
+        }
     }
 
     render() {

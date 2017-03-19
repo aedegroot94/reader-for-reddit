@@ -1,8 +1,8 @@
 import update from 'immutability-helper';
 
 const initialAppState = {
-    subreddit: null,
-    sorting: "top"
+    subreddit: "civ",
+    sorting: "hot"
 };
 
 export function appReducer(state = initialAppState, action) {
