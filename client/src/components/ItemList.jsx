@@ -10,16 +10,15 @@ class ItemListUI extends React.Component {
     }
 
     componentWillMount() {
-        //TODO: uncomment when loadItems is implemented on server.
         if(this.props.subreddit) {
             this.props.loadItems(this.props.subreddit, this.props.sorting);
         }
     }
 
     render() {
-        let items = this.props.items ? this.props.items.map((item) => <Item item={item} />) : "No items found...";
+        let items = this.props.items ? this.props.items.map((item) => <Item item={item} />) : "Waiting for items...";
 
-        return <div>
+        return <div className="flex-item">
             {items}
             </div>
     }

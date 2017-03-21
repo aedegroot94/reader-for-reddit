@@ -8,7 +8,10 @@ class AppUI extends React.Component {
    }
 
    render() {
-      return <ItemList />
+      return <div className='flex-container'>
+         <ItemList />
+         <iframe src={this.props.iframeLink} className='flex-item'></iframe>
+      </div>
    }
 }
 

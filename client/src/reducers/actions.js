@@ -9,7 +9,6 @@ export function loadItemsAction(subreddit, sorting) {
                 else {
                     let parsed = JSON.parse(res.text);
 
-                    console.log(parsed);
                     //makes the big object into a smaller object with just the information that we need
                     let itemList = parsed.data.children.map((item) => {
                             return {
@@ -23,9 +22,6 @@ export function loadItemsAction(subreddit, sorting) {
                             };
                         }
                     );
-
-                    console.log(JSON.stringify(itemList));
-
                     dispatch({type: 'loadItems', itemList});
                 }
             })

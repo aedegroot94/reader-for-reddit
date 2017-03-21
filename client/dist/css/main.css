@@ -1,0 +1,76 @@
+div.item {
+
+    background: #ffe4e1;
+    border-bottom: 3px solid #6b0303;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 0.8em;
+    -webkit-transition: font-size 0.2s ease-in;
+    -moz-transition: font-size 0.2s ease-in;
+    -o-transition: font-size 0.2s ease-in;
+    -ms-transition: font-size 0.2s ease-in;
+    transition: font-size 0.2s ease-in;
+}
+
+p.item-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div.item:hover {
+    font-size: 1em;
+}
+
+div.item:hover p.item-title {
+    font-size: 2em;
+}
+
+/* only for codepen */
+div.wrapper {
+    width: 30%;
+}
+
+.nsfw  {
+    color: red;
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+/*ItemList*/
+.flex-item:nth-child(1) {
+    -webkit-flex: 1 0 35%;
+    -ms-flex: 1 0 35%;
+    flex: 1 0 35%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+/*iframe*/
+.flex-item:nth-child(2) {
+    -webkit-flex: 0 10 65%;
+    -ms-flex: 0 10 65%;
+    flex: 0 10 65%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
