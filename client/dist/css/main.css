@@ -72,5 +72,5 @@ div.wrapper {
     flex: 0 10 65%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto;
+    align-self: stretch;
 }

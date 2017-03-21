@@ -1,30 +1,46 @@
 import React from 'react'
 import * as ReactRedux from 'react-redux';
 
+import {changeIframeAction} from '../reducers/actions.js';
+
 class ItemUI extends React.Component {
     constructor(props) {
         super(props);
+
+        this.openItem = this.openItem.bind(this);
+        this.openComments = this.openComments.bind(this);
+    }
+
+    openItem() {
+        this.props.changeIframeAction(this.props.item.link);
+    }
+
+    openComments(){
+        this.props.changeIframeAction(this.props.item.comments.link)
     }
 
     render() {
         let nsfwWarning = this.props.item.nsfw ? <span className="nsfw">(NSFW)</span> : "";
 
         return <div className="item">
-            <p className="item-title">{this.props.item.title} {nsfwWarning}</p>
-            <p>Author: {this.props.item.author} - Comments: {this.props.item.comments.amount}</p>
+            <p className="item-title" onClick={this.openItem}>{this.props.item.title} {nsfwWarning}</p>
+            <p>Author: {this.props.item.author} - Score: {this.props.item.score} - <span onClick={this.openComments}>Comments: {this.props.item.comments.amount}</span></p>
         </div>
+    }
+
+}
+
+function mapStateToProps(state) {
+    return {
     }
 }
 
-// {
-//     id: item.data.id,
-//         title: item.data.title,
-//     link: item.data.url,
-//     comments: {amount: item.data.num_comments, link: "http://www.reddit.com" + item.data.permalink},
-//     author: item.data.author,
-//         score: item.data.score,
-//     nsfw: item.data.over_18
-// }
+function mapDispatchToProps(dispatch) {
+    return {
+        changeIframeAction: (url) => dispatch(changeIframeAction(url))
+    }
+}
 
 
-export const Item = ReactRedux.connect()(ItemUI);
+
+export const Item = ReactRedux.connect(mapStateToProps, mapDispatchToProps)(ItemUI);

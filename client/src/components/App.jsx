@@ -10,9 +10,15 @@ class AppUI extends React.Component {
    render() {
       return <div className='flex-container'>
          <ItemList />
-         <iframe src={this.props.iframeLink} className='flex-item'></iframe>
+         <iframe src={this.props.iframeUrl} className='flex-item'></iframe>
       </div>
    }
 }
 
-export const App = ReactRedux.connect()(AppUI);
+function mapStateToProps(state) {
+   return {
+      iframeUrl: state.app.iframeUrl
+   }
+}
+
+export const App = ReactRedux.connect(mapStateToProps)(AppUI);

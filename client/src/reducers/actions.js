@@ -28,3 +28,7 @@ export function loadItemsAction(subreddit, sorting) {
 
     }
 }
+
+export function changeIframeAction(url) {
+    return { type: 'changeIframe', url};
+}
