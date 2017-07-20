@@ -23,7 +23,7 @@ class ItemUI extends React.Component {
         let nsfwWarning = this.props.item.nsfw ? <span className="nsfw">(NSFW)</span> : "";
 
         return <div className="item">
-            <p className="item-title" onClick={this.openItem}>{this.props.item.title} {nsfwWarning}</p>
+            <p className="item-title"><a onClick={this.openItem}>{this.props.item.title} {nsfwWarning}</a></p>
             <p>Author: {this.props.item.author} - Score: {this.props.item.score} - <span onClick={this.openComments}>Comments: {this.props.item.comments.amount}</span></p>
         </div>
     }
