@@ -28,9 +28,23 @@
           <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-                  <folding />
+                <state relative-caret-position="326">
+                  <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemList.jsx" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/ItemList.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="156">
+                  <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -45,23 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mainReducer.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/reducers/mainReducer.js">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dist/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/reducers/actions.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+                <state relative-caret-position="345">
+                  <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +72,8 @@
           <file leaf-file-name="Preferences.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Preferences.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16">
-                  <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -125,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/components/ItemList.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/itemReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/appReducer.js" />
-        <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/src/reducers/mainReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/preferencesReducer" />
         <option value="$PROJECT_DIR$/src/reducers/PreferencesReducer.js" />
@@ -133,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/reducers/actions.js" />
         <option value="$PROJECT_DIR$/src/reducers/preferencesReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Preferences.jsx" />
+        <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/src/components/App.jsx" />
       </list>
     </option>
@@ -359,12 +361,12 @@
       <workItem from="1489563873177" duration="1536000" />
       <workItem from="1489565715225" duration="153000" />
       <workItem from="1489677895793" duration="9769000" />
-      <workItem from="1490026191744" duration="8258000" />
+      <workItem from="1490026191744" duration="9686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19716000" />
+    <option name="totallyTimeSpent" value="21144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1056" extended-state="6" />
@@ -554,13 +556,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frontpageData.js" />
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -568,14 +563,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ItemList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,14 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -663,6 +642,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Preferences.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/preferencesReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -671,10 +668,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Preferences.jsx">
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="345">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ItemList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -683,9 +688,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="326">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

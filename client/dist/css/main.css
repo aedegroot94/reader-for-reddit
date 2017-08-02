@@ -34,6 +34,15 @@ div.wrapper {
     color: red;
 }
 
+.header {
+    color: darkred;
+    font-size: 1.5em;
+}
+
+.header .title {
+    font-size: 2em;
+}
+
 .flex-container {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -65,7 +74,7 @@ div.wrapper {
     align-self: auto;
 }
 
-/*iframe*/
+/*iframe or preferences*/
 .flex-item:nth-child(2) {
     -webkit-flex: 0 10 65%;
     -ms-flex: 0 10 65%;

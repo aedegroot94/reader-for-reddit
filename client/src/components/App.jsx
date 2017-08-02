@@ -24,10 +24,12 @@ class AppUI extends React.Component {
          rightAreaContent = <iframe src={this.props.iframeUrl} className='flex-item'></iframe>;
       }
 
-      return <div className='flex-container'>
-         <div><a onClick={this.togglePreferences}>Preferences</a></div>
-         <ItemList />
-         {rightAreaContent}
+      return <div>
+         <div className="header"><span className="title">Reader For Reddit</span> || <a onClick={this.togglePreferences}>Preferences</a></div>
+         <div className='flex-container'>
+            <ItemList />
+            {rightAreaContent}
+         </div>
       </div>
    }
 }
